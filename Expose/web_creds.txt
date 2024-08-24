@@ -1,0 +1,4 @@
+hacker@root.thm - VeryDifficultPassword!!#@#@!#!@#1231 
+
+| 1  | /file1010111/index.php       | 69c66901194a6486176e81f5945b8929 (easytohack) 
+| 3  | /upload-cv00101011/index.php | // ONLY ACCESSIBLE THROUGH USERNAME STARTING WITH Z 
