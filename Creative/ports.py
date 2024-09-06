@@ -1,3 +1,4 @@
+# own script (for testing)
 # import requests
 # import bs4
 
@@ -15,6 +16,7 @@
 #         print(resp.text)
 #         # print("success\n")
 
+# just added threads to increase speed w help of ChatGPT
 import requests
 from concurrent.futures import ThreadPoolExecutor
 
