@@ -36,7 +36,7 @@ hudson:x:1001:1001::/home/hudson:/bin/bash
 -> we can access any running process if we know the process number 
 -> so we can run a python script to generate 1 to n numbers and send a get request , if we get the 200 on a perticular request it means that process is running , we might get somthing in processes , if we are unable to find nothing
 
--> python script 
+-> python script {taken it from google}
 ```
 import requests  
   
