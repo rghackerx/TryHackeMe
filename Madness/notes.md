@@ -1,4 +1,4 @@
-#-
+#madness #thm #easy #mindset #stegnography #privesc #screen  
 
 -> commands 
 	`rustscan -a 10.10.37.57 -r 1-65535 -- -A`
@@ -49,7 +49,7 @@ fyle.writelines(str(i) + '\n')
 	*Urgh, you got it right! But I won't tell you who I am! **y2RPJ4QaPF!B***
 
 -> let's find out what this sting is : **y2RPJ4QaPF!B**
--> in hint : ROTten goys name was mentioned , as i already think about ROT but don't know which one , as per the hint it's 10 
+-> in hint : ROTten guys name was mentioned , as i already think about ROT but don't know which one , as per the hint it's 10 
 ```
 OG     : y2RPJ4QaPF!B
 ROT 10 : i2BZT4AkZP!L  -> this might be the ssh uname??
@@ -59,9 +59,9 @@ ROT 10 : i2BZT4AkZP!L  -> this might be the ssh uname??
 
 --> move back ! `steghide extract -sf thm.png`
 -> pass : `y2RPJ4QaPF!B`
--> got a usenname : wbxmr -> ROT13 -> `joker`
+-> got a usename : wbxmr -> ROT13 -> `joker`
 
--> now i was stucked here for a long time , i saw a hint and get to know about the header image on this CTF THM Page , damnn!!! unrealistic
+-> now i was sucked here for a long time , i saw a hint and get to know about the header image on this CTF THM Page , damn!!! unrealistic
 
 -> `curl https://i.imgur.com/5iW7kC8.jpg -o 5iW7kC8.jpg`
 -> `steghide extract -sf 5iW7kC8.jpg`  -> no pass needed
